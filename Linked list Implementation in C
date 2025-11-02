@@ -1,4 +1,4 @@
-// Linkedlist Implementation in C
+
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -147,4 +147,5 @@ void deleteany(){
     }
     prev->link=cur->link;
     free(t);
+
 }
